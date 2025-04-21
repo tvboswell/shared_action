@@ -1,0 +1,10 @@
+name: Reusable workflow
+
+on:
+  workflow_call:
+
+jobs:
+  call-another-reusable:
+    #uses: octo-org/example-repo/.github/workflows/another-reusable.yml@v1
+    uses: tvboswell/github-actions-presentation/.github/workflows/basic-workflow.yml
+    
