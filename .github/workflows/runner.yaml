@@ -2,7 +2,7 @@ name: Reusable workflow
 
 on:
   workflow_call:
-
+  workflow_dispatch:
 jobs:
   call-another-reusable:
     #uses: octo-org/example-repo/.github/workflows/another-reusable.yml@v1
