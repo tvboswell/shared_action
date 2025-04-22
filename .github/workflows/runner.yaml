@@ -5,6 +5,6 @@ on:
   workflow_dispatch:
 jobs:
   call-another-reusable:
-    #uses: octo-org/example-repo/.github/workflows/another-reusable.yml@v1
+    #uses: octo-org/example-repo/.github/workflows/another-reusable.yml@main
     uses: tvboswell/github-actions-presentation/.github/workflows/basic-workflow.yml@v7
     
